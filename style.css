@@ -1,0 +1,44 @@
+.button {
+    font-family: "Roboto";
+  border: none;
+  border-radius: 3px;
+  padding: 10px 8px;
+  color: white;
+  font-size: 16px;
+    border-style: dashed;
+    border: 1px solid #eeeeee;
+    display: inline;
+  }
+  
+  .button:hover {
+  font-family: "Roboto";
+  background: yellow;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 8px;
+  color: black;
+  font-size: 16px;
+  border-style: dashed; 
+  border: 1px solid #eeeeee;
+  display: inline;
+  
+  }
+
+  body {
+    background-color: whitesmoke;
+}
+  img {
+    width: 400px;
+}
+  @media only screen and (max-width: 320px){
+    body {
+        background-color: black;
+    }
+    h1 {
+        font-size: 20px;
+        color: black;
+    }
+    img {
+        width: 100%;
+    }
+}
